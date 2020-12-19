@@ -14,6 +14,22 @@
 ### Attaching down the block design diagram of the whole System :
 ![github3](https://user-images.githubusercontent.com/59331005/102698153-ee1c3480-4243-11eb-825c-33ef9e33163a.JPG)
 
+### Each block is built using the following techniques.
+
+### Source Coding: Convolution using modulo 2.
+
+### Channel Coding: Convolutional encoding .
+
+### Modulation: Frequency-shift keying (Fsk /Gfsk) modulation.
+
+### Channel: Additive White Gaussian Noise Channel (AWGN) .
+
+### Demodulation: FSK demodulation
+
+### Channel Decoding: Viterbi decoding
+
+### Source Decoding: Hamming Distance Decoding - Hybrid Decoding over hard decision with soft decision.
+
 ##
 
 ### the Viterbi Decoder(K=7, code rate = 1/2) is used for decoding the encrypted data and its implementation is based on Maximum likelihood estimation and stochastic approximation.
@@ -27,9 +43,11 @@
 
 ##
 
+
+
 ### Instructions
 ### Project is done by Matlab, and C/C++ languags. it works for two operating systems (Windows/Linux). To run the the program download it and run it by writing in your IDE :  
 ### Matlab - Decryption('filepath of your sampled data'). 
 ### C/C++ - Viterbi ('filepath of your sampled data').
 
-### -Output : your sent message/Data.
+### -Output is your sent message/Data.
