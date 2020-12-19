@@ -32,4 +32,4 @@
 ### Matlab - Decryption('filepath of your sampled data'). 
 ### C/C++ - Viterbi ('filepath of your sampled data').
 
-### -Output is your sent message/Data.
+### -Output : your sent message/Data.
